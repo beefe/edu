@@ -3,7 +3,7 @@
 
 
 ####工具安装
-`zoo`使用`Node.js`开发，以`npm`包的形式发布。因此使用前需要先安装`[Node.js](http://nodejs.cn/)`，再通过`npm`安装命令进行安装。
+`zoo`使用`Node.js`开发，以`npm`包的形式发布。因此使用前需要先安装[`Node.js`](http://nodejs.cn/)，再通过`npm`安装命令进行安装。
 
 >npm install fis-zoo -g //安装
 >zoo -v                //查看已安装成功的`zoo`版本号
@@ -21,7 +21,7 @@
 
 >zoo server start
 
-####功能二：资源压缩【--optimize(压缩)】
+####功能二：资源压缩【--optimize压缩】
 这是前端项目优化中非常重要的一环，提高性能，可以简写为:
 
 >zoo release -o
@@ -33,7 +33,7 @@ md5其实是内容摘要算法中的一种，根据文件内容自动生成文�
 
 >zoo release -m
 
-####功能四：资源合并【--pack(打包)】
+####功能四：资源合并【--pack打包】
 此命令参数需要上文提到的`fis-config.js`配置文件配合,将对应数组内每个路径的文件打包到pkg/common.js/less。
 
 ```javascript
